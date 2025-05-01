@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <title>GIS 4533 Final</title>
+    
+     <!-- linking to css style sheets -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+    
+    <link rel="stylesheet" href="style.css">
+    
+
+     <!-- adding Leaflet using API -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin=""></script>
+    
+    <!-- adding PapaParse for CSV -->
+    <script src="PapaParse-5.0.2/papaparse.js"></script>
+
+    
+    
+    </head>
+
+    <body>
+        <!-- Creating a title -->
+        <div id="Title">
+            <h1>Local Attractions Around Duluth</h1>
+            <p>By Walker Niebergall</p>
+        </div>
+
+        <!-- Creating a description -->
+        <div id="desc">
+            <p>Local Attractions Around Duluth, MN created for the FDI World Dental Conference! </p>
+            <p>This map shows 12 different points that fall into 3 catagories. Have fun exploring!</p>
+            <!-- Adding leaflet image and link -->
+            <a href="https://leafletjs.com"> <img src="https://leafletjs.com/docs/images/logo.png" alt="Leaflet logo"
+                width="100">
+            </a>
+          </div>
+
+    <!-- creating the basemap and linking to js -->
+    <div id="map" style="height: 100vh;"></div>
+    <script src="script.js"></script>
+
+    </body>
+
+</html>

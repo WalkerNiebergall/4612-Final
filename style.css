@@ -1,0 +1,72 @@
+html,body,#map {
+    height: 100%;
+    width: 100%;
+  }
+  /* map covers whole page */
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #Title {
+    position: fixed;
+    top: 10px;
+    left: 100px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 1000;
+    font-family: Tahoma;
+  }
+
+  #desc {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 1000;
+    font-family: Tahoma;
+  }
+
+  html,
+  body,
+  #mapid {
+    height: 100%;
+    width: 100%;
+  }
+  
+  /*Legend specific*/
+  .legend {
+    padding: 50px 20px;
+    font: 14px tahoma;
+    background: white;
+    background: rgba(255, 255, 255, 0.8);
+    line-height: 25px;
+    color: #555;
+  }
+  .legend h4 {
+    font: tahoma;
+    text-align: center;
+    font-size: 16px;
+    margin: 2px 12px 8px;
+    color: #777;
+  }
+  
+  .legend span {
+    position: fixed;
+    bottom: 50px;
+    left: 20px;
+  }
+  
+  .legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin: 0 8px 0 0;
+  }
+  
+  .legend i.icon {
+    background-size: 18px;
+    background-color: rgba(255, 255, 255, 1);
+  }
